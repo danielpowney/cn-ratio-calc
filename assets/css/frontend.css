@@ -1,0 +1,43 @@
+.cnrc-form {
+	display: inline-block;
+}
+.cnrc-form .cnrc-unit {
+	margin-bottom: 1em;
+}
+.cnrc-form .cnrc-unit label, .cnrc-form .cnrc-item-details .cnrc-item-type label, 
+.cnrc-form .cnrc-item-details .cnrc-item-type select,
+.cnrc-form .cnrc-item-details .cnrc-item-quantity label {
+	margin-right: 1em;
+	min-width: 2.5em;
+}
+.cnrc-form .cnrc-item-details {
+	width: auto;
+	display: inline-block;
+}
+.cnrc-form .cnrc-item-details .cnrc-item-type {
+	display: inline-block;
+	width: auto;
+}
+.cnrc-form .cnrc-item-details .cnrc-item-quantity {
+	display: inline-block;
+}
+.cnrc-form .cnrc-item-details .cnrc-item-quantity input {
+	width: 8em;
+}
+.cnrc-form .cnrc-item-add {
+	vertical-align: middle;
+}
+.cnrc-form .cnrc-item-add:hover {
+	cursor: pointer;	
+	display: inline-block;
+}
+
+.cnrc-form {
+	margin-bottom: 1em;
+}
+#cnrc-result {
+	font-size: 3em;
+}
+#cnrc-result-carbon {
+	color: Red;
+}
